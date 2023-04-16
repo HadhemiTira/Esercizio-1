@@ -1,0 +1,128 @@
+body {
+    margin:0;
+    background-color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header,main {
+max-width: 1200px;
+margin: auto;
+} 
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #FFCE89;
+    text-decoration: underline;
+}
+
+header p {
+    font-size: 42px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Spicy Rice', cursive;
+}
+ 
+header nav ul{
+    display: flex;
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+    margin:0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+section.hero h1 {
+    width: 500px;
+    font-size: 42px;
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 42px;
+}
+
+main  {
+    margin: 80px auto;
+    display: grid;
+    columns: 3;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+main div.card img {
+    object-fit: cover;
+    height: 270px;
+    width: 100%;
+}
+
+
+
+footer a {
+    max-width: 1200px;
+    margin: auto;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    font-family: 'Spicy Rice', cursive;
+    
+}
+
+footer p {
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+    font-size: 24px;
+    color: black;
+   
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer div.footer p {
+    
+    margin: auto;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    text-align: left;
+    width: 355px;
+}
+
+footer {
+    background-color: #FFCE89;
+}
+
+
+
+
+
+
+
+
+
+
+
